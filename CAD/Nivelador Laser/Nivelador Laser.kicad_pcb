@@ -435,7 +435,7 @@
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x04_P4.6mm_D0.9mm_OD2.1mm_Relief"
 		(layer "F.Cu")
 		(uuid "84d01bf2-a14d-4eaa-9c1e-69fca6152911")
-		(at 125.688 105.335)
+		(at 166.6 117.075)
 		(descr "Soldered wire connection with feed through strain relief, for 4 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm strain-relief")
 		(property "Reference" "Driver1"
@@ -1747,7 +1747,7 @@
 	(footprint "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm_Relief"
 		(layer "F.Cu")
 		(uuid "ad75c61d-59a3-416c-99fe-de65bdcfbd26")
-		(at 144.512 104.827)
+		(at 140.5 107.5)
 		(descr "Soldered wire connection with feed through strain relief, for 2 times 0.5 mm² wires, basic insulation, conductor diameter 0.9mm, outer diameter 2.1mm, size source Multi-Contact FLEXI-E 0.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.5sqmm strain-relief")
 		(property "Reference" "Laser1"
@@ -2163,7 +2163,7 @@
 	(footprint "Module:Arduino_UNO_R3"
 		(layer "F.Cu")
 		(uuid "d66a004c-4e3e-4a13-b027-720387d2c686")
-		(at 108.077 27.178)
+		(at 138.325 48.37)
 		(descr "Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 		(tags "Arduino UNO R3")
 		(property "Reference" "UNO1"
@@ -2772,7 +2772,7 @@
 			(remove_unused_layers no)
 			(net 26 "unconnected-(UNO1-IOREF-Pad2)")
 			(pinfunction "IOREF")
-			(pintype "output")
+			(pintype "output+no_connect")
 			(uuid "b9a4cf06-8d46-4b9a-a5ec-c2fcfd8c033d")
 		)
 		(pad "3" thru_hole oval
@@ -2783,7 +2783,7 @@
 			(remove_unused_layers no)
 			(net 35 "unconnected-(UNO1-~{RESET}-Pad3)")
 			(pinfunction "~{RESET}")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "f4545d54-c01d-4d3b-8115-48f778da2a20")
 		)
 		(pad "4" thru_hole oval
@@ -2794,7 +2794,7 @@
 			(remove_unused_layers no)
 			(net 23 "unconnected-(UNO1-3V3-Pad4)")
 			(pinfunction "3V3")
-			(pintype "power_out")
+			(pintype "power_out+no_connect")
 			(uuid "a0d6f692-75ca-4a58-b838-030e6ec62998")
 		)
 		(pad "5" thru_hole oval
@@ -2838,7 +2838,7 @@
 			(remove_unused_layers no)
 			(net 30 "unconnected-(UNO1-VIN-Pad8)")
 			(pinfunction "VIN")
-			(pintype "power_in")
+			(pintype "power_in+no_connect")
 			(uuid "d16937e4-2db3-43c2-b4b8-5a36209ffd84")
 		)
 		(pad "9" thru_hole oval
@@ -2849,7 +2849,7 @@
 			(remove_unused_layers no)
 			(net 22 "unconnected-(UNO1-A0-Pad9)")
 			(pinfunction "A0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7aedf771-d4ff-4a79-89f9-2b929990afaf")
 		)
 		(pad "10" thru_hole oval
@@ -2860,7 +2860,7 @@
 			(remove_unused_layers no)
 			(net 15 "unconnected-(UNO1-A1-Pad10)")
 			(pinfunction "A1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "1c22a455-d8b4-47d7-9e82-c7d4bc288ab4")
 		)
 		(pad "11" thru_hole oval
@@ -2871,7 +2871,7 @@
 			(remove_unused_layers no)
 			(net 32 "unconnected-(UNO1-A2-Pad11)")
 			(pinfunction "A2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d95ebb07-a993-49a1-b234-6792c7a9b05c")
 		)
 		(pad "12" thru_hole oval
@@ -2882,7 +2882,7 @@
 			(remove_unused_layers no)
 			(net 17 "unconnected-(UNO1-A3-Pad12)")
 			(pinfunction "A3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3293b85c-6ba3-408a-9e21-e4d4a1847717")
 		)
 		(pad "13" thru_hole oval
@@ -2915,7 +2915,7 @@
 			(remove_unused_layers no)
 			(net 33 "unconnected-(UNO1-D0{slash}RX-Pad15)")
 			(pinfunction "D0/RX")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "dc7b4e86-aedd-4ded-85aa-ac6b91736e5f")
 		)
 		(pad "16" thru_hole oval
@@ -2926,7 +2926,7 @@
 			(remove_unused_layers no)
 			(net 29 "unconnected-(UNO1-D1{slash}TX-Pad16)")
 			(pinfunction "D1/TX")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c54404a7-6884-416d-8e6e-26d5d4002e84")
 		)
 		(pad "17" thru_hole oval
@@ -2937,7 +2937,7 @@
 			(remove_unused_layers no)
 			(net 31 "unconnected-(UNO1-D2-Pad17)")
 			(pinfunction "D2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "d1e59f27-b040-40ff-8e1a-0efcf523adbd")
 		)
 		(pad "18" thru_hole oval
@@ -2948,7 +2948,7 @@
 			(remove_unused_layers no)
 			(net 19 "unconnected-(UNO1-D3-Pad18)")
 			(pinfunction "D3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "51da984d-a5e5-451b-ad76-d057e281ae32")
 		)
 		(pad "19" thru_hole oval
@@ -2959,7 +2959,7 @@
 			(remove_unused_layers no)
 			(net 27 "unconnected-(UNO1-D4-Pad19)")
 			(pinfunction "D4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "bd50f2a2-783e-401a-988d-aac5bc53bc96")
 		)
 		(pad "20" thru_hole oval
@@ -3025,7 +3025,7 @@
 			(remove_unused_layers no)
 			(net 20 "unconnected-(UNO1-D10-Pad25)")
 			(pinfunction "D10")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "593bc257-efe6-4a2d-941c-8d8850199960")
 		)
 		(pad "26" thru_hole oval
@@ -3036,7 +3036,7 @@
 			(remove_unused_layers no)
 			(net 21 "unconnected-(UNO1-D11-Pad26)")
 			(pinfunction "D11")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "59811795-1cfe-4708-924e-ffac7226ac03")
 		)
 		(pad "27" thru_hole oval
@@ -3047,7 +3047,7 @@
 			(remove_unused_layers no)
 			(net 18 "unconnected-(UNO1-D12-Pad27)")
 			(pinfunction "D12")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "48cef730-d5e9-4334-a6e5-31a74ad0b6fb")
 		)
 		(pad "28" thru_hole oval
@@ -3058,7 +3058,7 @@
 			(remove_unused_layers no)
 			(net 24 "unconnected-(UNO1-D13-Pad28)")
 			(pinfunction "D13")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a95e5de1-a84f-45aa-8f7a-19c93896d585")
 		)
 		(pad "29" thru_hole oval
@@ -3080,7 +3080,7 @@
 			(remove_unused_layers no)
 			(net 28 "unconnected-(UNO1-AREF-Pad30)")
 			(pinfunction "AREF")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(uuid "bf2681df-7c6c-4521-9339-dd16b35f6952")
 		)
 		(pad "31" thru_hole oval
@@ -3091,7 +3091,7 @@
 			(remove_unused_layers no)
 			(net 34 "unconnected-(UNO1-SDA{slash}A4-Pad31)")
 			(pinfunction "SDA/A4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ebc84b69-80dd-49d0-87e1-3bf10d5e176e")
 		)
 		(pad "32" thru_hole oval
@@ -3102,7 +3102,7 @@
 			(remove_unused_layers no)
 			(net 16 "unconnected-(UNO1-SCL{slash}A5-Pad32)")
 			(pinfunction "SCL/A5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "1cce44fc-77fe-436e-812d-98990710a9d5")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Module.3dshapes/Arduino_UNO_R3.wrl"
@@ -3120,7 +3120,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "defa11b1-c5c3-4545-85ab-2a86f121e485")
-		(at 159.02 102.108)
+		(at 75 59.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -3333,7 +3333,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ebc3e930-b1cd-429e-a154-275908920ec3")
-		(at 152.908 42.164)
+		(at 184.025 63.625)
 		(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x08 2.54mm single row")
 		(property "Reference" "IMU1"
@@ -3666,7 +3666,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f7129a32-059b-475b-a03d-3aa02ff98c02")
-		(at 94.996 84.851)
+		(at 95 88.92)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "Servo1"
