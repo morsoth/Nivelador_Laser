@@ -1,4 +1,4 @@
-# Archivos temporales y de caché de KiCad
+# KiCad
 *.bak
 *.sch-bak
 *.kicad_pcb-bak
