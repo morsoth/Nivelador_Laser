@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "SFH_2716")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprints/SFH_2716.pretty")(options "")(descr ""))
+  (lib (name "OLED")(type "KiCad")(uri "${KIPRJMOD}/../libs/footprints/OLED.pretty")(options "")(descr ""))
 )

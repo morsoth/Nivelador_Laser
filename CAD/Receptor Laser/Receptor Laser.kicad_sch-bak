@@ -477,164 +477,6 @@
 				)
 			)
 		)
-		(symbol "Device:Buzzer"
-			(pin_names
-				(offset 0.0254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BZ"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Buzzer"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Buzzer, polarized"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz resonator ceramic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Buzzer*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Buzzer_0_1"
-				(arc
-					(start 0 -3.175)
-					(mid 3.1612 0)
-					(end 0 3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 1.905) (xy -1.143 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.397 2.159) (xy -1.397 1.651)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Buzzer_1_1"
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_Module:Arduino_UNO_R3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2234,7 +2076,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 95.25) (xy 297.18 95.25)
+			(xy 287.02 113.03) (xy 300.99 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2824,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 99.06) (xy 297.18 99.06)
+			(xy 287.02 116.84) (xy 300.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2914,7 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 93.98) (xy 283.21 95.25)
+			(xy 287.02 111.76) (xy 287.02 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 87.63) (xy 297.18 87.63)
+			(xy 290.83 105.41) (xy 300.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3224,7 +3066,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 91.44) (xy 297.18 91.44)
+			(xy 290.83 109.22) (xy 300.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3464,16 +3306,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 252.73) (xy 304.8 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dbc4c11-ee71-4b0f-adf3-09694d127da3")
-	)
-	(wire
-		(pts
 			(xy 91.44 114.3) (xy 99.06 114.3)
 		)
 		(stroke
@@ -3664,16 +3496,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 254) (xy 303.53 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a480344b-e90c-4cde-a98b-a7b47f854c83")
-	)
-	(wire
-		(pts
 			(xy 214.63 57.15) (xy 222.25 57.15)
 		)
 		(stroke
@@ -3681,16 +3503,6 @@
 			(type default)
 		)
 		(uuid "a4e2b5cb-1cee-4607-ab33-45ea3bd1b8dd")
-	)
-	(wire
-		(pts
-			(xy 298.45 247.65) (xy 304.8 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a514e8bf-82f9-4c55-ba2e-3ac423cb49d3")
 	)
 	(wire
 		(pts
@@ -4144,7 +3956,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 100.33) (xy 283.21 99.06)
+			(xy 287.02 118.11) (xy 287.02 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5117,17 +4929,6 @@
 		)
 		(uuid "5e51d6be-75d9-43ef-8a46-4208fdb7b495")
 	)
-	(label "BUZZ"
-		(at 298.45 247.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fab0049-a2b3-412f-a99a-413400cb63af")
-	)
 	(label "PH-46"
 		(at 205.74 288.29 0)
 		(fields_autoplaced yes)
@@ -5327,7 +5128,7 @@
 		(uuid "8003c634-e833-407b-a5d1-996f9c86ece4")
 	)
 	(label "DISP_SCL"
-		(at 287.02 91.44 0)
+		(at 290.83 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5536,7 +5337,7 @@
 		(uuid "a45e6d05-dfcc-4839-9a43-2b2d334b9d19")
 	)
 	(label "DISP_SDA"
-		(at 287.02 87.63 0)
+		(at 290.83 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6533,76 +6334,6 @@
 			(project "Receptor Laser"
 				(path "/a079cfad-514e-45ca-915a-9427d80cf52d"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Buzzer")
-		(at 307.34 250.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b525483-4158-4e9a-8625-6dd9e708ca55")
-		(property "Reference" "BZ1"
-			(at 311.15 248.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Buzzer"
-			(at 311.15 251.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
-			(at 306.705 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 306.705 247.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Buzzer, polarized"
-			(at 307.34 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f41cac17-c0ac-4f05-ba95-10b24b9c7dde")
-		)
-		(pin "2"
-			(uuid "f33914af-4cf7-49eb-8a9b-ea5096f2da59")
-		)
-		(instances
-			(project ""
-				(path "/a079cfad-514e-45ca-915a-9427d80cf52d"
-					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -9449,7 +9180,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 283.21 93.98 0)
+		(at 287.02 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9458,7 +9189,7 @@
 		(fields_autoplaced yes)
 		(uuid "43fdf308-501e-47cb-8c42-9191fd349d5d")
 		(property "Reference" "#PWR073"
-			(at 283.21 97.79 0)
+			(at 287.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9467,7 +9198,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 283.21 88.9 0)
+			(at 287.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9475,7 +9206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 93.98 0)
+			(at 287.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 93.98 0)
+			(at 287.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9493,7 +9224,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 283.21 93.98 0)
+			(at 287.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,7 +10074,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 100.33 0)
+		(at 287.02 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10352,7 +10083,7 @@
 		(fields_autoplaced yes)
 		(uuid "607cbf6a-edb9-442c-be70-63d93777c5d7")
 		(property "Reference" "#PWR074"
-			(at 283.21 106.68 0)
+			(at 287.02 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +10092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 105.41 0)
+			(at 287.02 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10369,7 +10100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 100.33 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10378,7 +10109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 100.33 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10387,7 +10118,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 283.21 100.33 0)
+			(at 287.02 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,72 +10133,6 @@
 			(project "Receptor Laser"
 				(path "/a079cfad-514e-45ca-915a-9427d80cf52d"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 303.53 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61b2d2ee-bd17-4131-8725-97441b8b4d08")
-		(property "Reference" "#PWR075"
-			(at 303.53 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 303.53 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 303.53 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "254a5930-c540-478f-914e-da0ead129001")
-		)
-		(instances
-			(project "Receptor Laser"
-				(path "/a079cfad-514e-45ca-915a-9427d80cf52d"
-					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -12377,7 +12042,7 @@
 	)
 	(symbol
 		(lib_id "OLED:OLED")
-		(at 316.23 93.98 0)
+		(at 320.04 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12385,8 +12050,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fddeb4c-6640-410e-9c61-2cdc0e69da80")
-		(property "Reference" "OLED1"
-			(at 332.74 92.075 0)
+		(property "Reference" "OL1"
+			(at 336.55 109.855 0)
 			(effects
 				(font
 					(size 1.2954 1.2954)
@@ -12394,8 +12059,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.91\" OLED I2C"
-			(at 332.74 94.615 0)
+		(property "Value" "OLED"
+			(at 336.55 112.395 0)
 			(effects
 				(font
 					(size 1.1938 1.1938)
@@ -12404,7 +12069,7 @@
 			)
 		)
 		(property "Footprint" "OLED:OLED"
-			(at 316.23 91.44 0)
+			(at 320.04 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12413,7 +12078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 91.44 0)
+			(at 320.04 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12422,7 +12087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 316.23 93.98 0)
+			(at 320.04 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12445,7 +12110,7 @@
 		(instances
 			(project ""
 				(path "/a079cfad-514e-45ca-915a-9427d80cf52d"
-					(reference "OLED1")
+					(reference "OL1")
 					(unit 1)
 				)
 			)
