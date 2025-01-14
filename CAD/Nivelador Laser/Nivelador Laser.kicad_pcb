@@ -113,9 +113,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -219,7 +219,7 @@
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/b8e4c2eb-e13a-43d7-b70f-30a411f3cd9e")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "Nivelador Laser.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -494,7 +494,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5b78c662-5e7d-4a78-8084-a05779c8a2e4")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "Nivelador Laser.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -784,7 +784,7 @@
 		)
 		(property ki_fp_filters "PinHeader*P2.54mm*")
 		(path "/58ea19b2-2402-455e-adad-a362eaa68b8f")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "Nivelador Laser.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1068,7 +1068,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1b837d1c-543c-4379-8851-cf72f83cdba2")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "Nivelador Laser.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -1356,7 +1356,7 @@
 			(uuid "35f6064b-01cd-4e63-90bf-655f9e65bbf9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.3 -6.3 360)
+			(at 2.3 -6.3 0)
 			(layer "B.Fab")
 			(uuid "4ae46e2e-7058-4702-9e40-9dd2d32759e2")
 			(effects
@@ -1423,7 +1423,7 @@
 		(descr "Arduino UNO R3, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
 		(tags "Arduino UNO R3")
 		(property "Reference" "UNO1"
-			(at 1.27 3.81 360)
+			(at 1.27 3.81 0)
 			(layer "B.SilkS")
 			(uuid "688a02f8-8c9c-4dd6-861d-04dd4225f09e")
 			(effects
@@ -1435,7 +1435,7 @@
 			)
 		)
 		(property "Value" "Arduino_UNO_R3"
-			(at 0 -22.86 360)
+			(at 0 -22.86 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4b31b20e-2d64-4328-832c-c020eef1645d")
@@ -1491,7 +1491,7 @@
 		)
 		(property ki_fp_filters "Arduino*UNO*R3*")
 		(path "/d0146cad-9bb6-4db8-b065-252472c510bf")
-		(sheetname "Raíz")
+		(sheetname "Root")
 		(sheetfile "Nivelador Laser.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2005,7 +2005,7 @@
 			(uuid "96cd251a-5e20-4fd7-9951-917bdea7b01d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -20.32 360)
+			(at 0 -20.32 0)
 			(layer "B.Fab")
 			(uuid "c3cf7c36-89fe-49cb-87da-55af9685d091")
 			(effects

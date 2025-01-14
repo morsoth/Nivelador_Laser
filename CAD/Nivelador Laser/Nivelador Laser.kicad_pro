@@ -485,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -596,7 +596,7 @@
   "sheets": [
     [
       "2bd9dce1-f446-486a-8f44-7d9b9c78a407",
-      "Raíz"
+      "Root"
     ]
   ],
   "text_variables": {}

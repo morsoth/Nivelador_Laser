@@ -2043,10 +2043,6 @@
 		(uuid "2c6da239-fe28-4d66-8d2d-6fb5d9eeaf6d")
 	)
 	(no_connect
-		(at 298.45 168.91)
-		(uuid "4b68d174-0591-44ed-82fa-2e4e2c18eda7")
-	)
-	(no_connect
 		(at 298.45 171.45)
 		(uuid "8e50d4b9-aa4f-41f7-9d52-fe0efdda47a1")
 	)
@@ -2241,6 +2237,16 @@
 			(type default)
 		)
 		(uuid "14cd3880-c46d-4e9a-82f8-8c70ecb344a8")
+	)
+	(wire
+		(pts
+			(xy 292.1 168.91) (xy 298.45 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c1a2e1-3086-4055-9044-f35fb20c4236")
 	)
 	(wire
 		(pts
@@ -5051,6 +5057,17 @@
 		)
 		(uuid "56402499-f552-4fe6-805b-5820384e0729")
 	)
+	(label "BUZZ"
+		(at 292.1 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5794e84b-9a41-41cc-af19-62e5a25f11ce")
+	)
 	(label "PH-41"
 		(at 205.74 275.59 0)
 		(fields_autoplaced yes)
@@ -6566,7 +6583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 306.705 247.65 90)
 			(effects
 				(font
