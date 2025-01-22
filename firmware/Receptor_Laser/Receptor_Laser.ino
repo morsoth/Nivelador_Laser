@@ -87,7 +87,7 @@ void readADCs() {
 }
 
 void calculateLaserPosition() {
-  const int THRESHOLD = 650;
+  const int THRESHOLD = 600;
 
   int max_value = 0;
   int max_photodiode = -1;
@@ -130,30 +130,20 @@ void calculateLaserPosition() {
     else {
       display.setCursor(2,2);
       display.println(max_photodiode);
-      /*
-      display.println(top_photodiode);
-      display.println(bot_photodiode);
-  
-      
-      display.setCursor(2,32);
-      display.println(photodiode_values[max_photodiode]);
-      display.println(photodiode_values[top_photodiode]);
-      display.println(photodiode_values[bot_photodiode]);
-*/
+
       int height;
       
       if (max_photodiode < TOTAL_PHOTODIODES / 2) height = -11*max_photodiode + 176;
       else height = 11*max_photodiode - 346;
 
       display.drawLine(17, height, 32, height, SSD1306_WHITE);
+      
+      if (height == 64) {
+        digitalWrite(BUZZ, HIGH);
+        delay(200);
+        digitalWrite(BUZZ, LOW);
+      }
     }
-/*
-    if (max_photodiode == 37) {
-      digitalWrite(BUZZ, HIGH);
-      delay(200);
-      digitalWrite(BUZZ, LOW);
-    }
-    */
     // Adjust position
 
     // Map the photodiode with the display height
